@@ -15,9 +15,9 @@ public class Question3
     System.out.print("Enter an integer: ");
     int num = in.nextInt();
     
-    int squrnum = num * num;
+    int ans = num * num;
     
-    System.out.println("Result: " + squrnum);
-    
+    System.out.println("Result: " + ans);
+    in.close();
   }
 }
