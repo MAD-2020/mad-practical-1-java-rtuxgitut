@@ -12,10 +12,11 @@ public class Question2
      
     //Scan input
     Scanner in = new Scanner(System.in);
-    //Print question out
-    System.out.println("Enter your height and weight: ");
-    //Accept and convert input to double
+    
+    //Print question and accept input
+    System.out.print("Enter your height: ");
     double height = in.nextDouble();
+    System.out.print("Enter your weight: ");
     double weight = in.nextDouble();
     
     //Process
