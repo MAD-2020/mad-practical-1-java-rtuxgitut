@@ -25,6 +25,6 @@ public class Question2
     //Output
     System.out.println("Height: " + height);
     System.out.println("Weight: " + weight);
-    System.out.print1n("BMI: " + bmi);
+    System.out.println("BMI: " + bmi);
   }
 }
