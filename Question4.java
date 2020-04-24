@@ -16,22 +16,19 @@ public class Question4
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
-     
     Scanner in = new Scanner(System.in);
 
-    //Get Input
-    System.out.print("Enter the integer base of triangle: ");
-    int number = in.nextInt();
+    System.out.print("Enter an integer for the base of triangle: ");
+    int num = in.nextInt();
+    in.close();
 
-    for (int row = 0; row < number; row++)  //Print number of lines based on integer received
+    for(int r = 0; r < num; r++)
     {
-      for (int ast = 0; ast < (number - row) ; ast++) //Print astericks, -1 going to next row.
+      for(int unit = num; unit > r; unit--)
       {
         System.out.print("*");
       }
-      System.out.println(); //Go to next line
+      System.out.println();
     }
-    
-    in.close();
   }
 }
