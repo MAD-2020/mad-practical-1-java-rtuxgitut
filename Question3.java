@@ -9,15 +9,14 @@ public class Question3
      * 
      * Hint: in.nextInt() to read integer
      */
-     
     Scanner in = new Scanner(System.in);
-    
-    System.out.print("Enter an integer: ");
+
+    System.out.print("Enter an integer to be squared: ");
     int num = in.nextInt();
-    
-    int ans = num * num;
-    
-    System.out.println("Result: " + ans);
     in.close();
+
+    int answer = num * num;
+
+    System.out.print("Final number is " + answer);
   }
 }
